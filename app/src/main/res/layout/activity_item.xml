@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemActivity"
+    android:background="@color/itemBackground">
+
+    <androidx.appcompat.widget.Toolbar
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/item_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/itemBackground"
+        app:titleTextColor="@color/white"
+        app:title=" "
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_toolbar"
+        app:layout_constraintVertical_bias="0.1"
+        >
+
+        <RelativeLayout
+            android:id="@+id/gtaTap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="366dp"
+                android:layout_height="101dp"
+                android:background="@drawable/rectangle_2_shape" />
+
+            <ImageView
+                android:id="@+id/gta"
+                android:layout_width="139dp"
+                android:layout_height="83dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="9dp" />
+
+            <TextView
+                android:fontFamily="@font/blusansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="11dp"
+                android:text="GTA V"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/blusansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="36dp"
+                android:text="Action-Adventure"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:fontFamily="@font/blusansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="66dp"
+                android:text="Rp. 200.000"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="319dp"
+                android:layout_marginTop="34dp">
+
+                <View
+                    android:layout_width="32dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/rectangle_3_shape" />
+
+                <TextView
+                    android:fontFamily="@font/blusansregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="3dp"
+                    android:text=">"
+                    android:textColor="@color/textGray"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/apexTap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp">
+
+            <View
+                android:layout_width="366dp"
+                android:layout_height="101dp"
+                android:background="@drawable/rectangle_2_shape" />
+
+            <ImageView
+                android:id="@+id/apex"
+                android:layout_width="139dp"
+                android:layout_height="83dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="9dp" />
+
+            <TextView
+                android:fontFamily="@font/blusansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="11dp"
+                android:text="Apex Legends"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/blusansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="36dp"
+                android:text="Online Battle Royale"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:fontFamily="@font/blusansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="66dp"
+                android:text="Rp. 300.000"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="319dp"
+                android:layout_marginTop="34dp">
+
+                <View
+                    android:layout_width="32dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/rectangle_3_shape" />
+
+                <TextView
+                    android:fontFamily="@font/blusansregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="3dp"
+                    android:text=">"
+                    android:textSize="20sp"
+                    android:textColor="@color/textGray"
+                    />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dotaTap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp">
+
+            <View
+                android:layout_width="366dp"
+                android:layout_height="101dp"
+                android:background="@drawable/rectangle_2_shape" />
+
+            <ImageView
+                android:id="@+id/dota"
+                android:layout_width="139dp"
+                android:layout_height="83dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="9dp" />
+
+            <TextView
+                android:fontFamily="@font/blusansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="11dp"
+                android:text="Dota 2"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/blusansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="36dp"
+                android:text="MOBA 5v5"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:fontFamily="@font/blusansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="66dp"
+                android:text="Rp. 100.000"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="319dp"
+                android:layout_marginTop="34dp">
+
+                <View
+                    android:layout_width="32dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/rectangle_3_shape" />
+
+                <TextView
+                    android:fontFamily="@font/blusansregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="3dp"
+                    android:text=">"
+                    android:textSize="20sp"
+                    android:textColor="@color/textGray"
+                    />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/csTap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="330dp">
+
+            <View
+                android:layout_width="366dp"
+                android:layout_height="101dp"
+                android:background="@drawable/rectangle_2_shape" />
+
+            <ImageView
+                android:id="@+id/csgo"
+                android:layout_width="139dp"
+                android:layout_height="83dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="9dp" />
+
+            <TextView
+                android:fontFamily="@font/blusansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="11dp"
+                android:text="CS:GO"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/blusansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="36dp"
+                android:text="FPS Multiplayer"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:fontFamily="@font/blusansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="66dp"
+                android:text="Rp. 150.000"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="319dp"
+                android:layout_marginTop="34dp">
+
+                <View
+                    android:layout_width="32dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/rectangle_3_shape" />
+
+                <TextView
+                    android:fontFamily="@font/blusansregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="3dp"
+                    android:text=">"
+                    android:textSize="20sp"
+                    android:textColor="@color/textGray"
+                    />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/wdTap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="440dp">
+
+            <View
+                android:layout_width="366dp"
+                android:layout_height="101dp"
+                android:background="@drawable/rectangle_2_shape" />
+
+            <ImageView
+                android:id="@+id/watchdogs"
+                android:layout_width="139dp"
+                android:layout_height="83dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="9dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:fontFamily="@font/blusansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="11dp"
+                android:text="Watch_Dogs"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/blusansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="36dp"
+                android:text="Third-Person Adventure"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:fontFamily="@font/blusansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="66dp"
+                android:text="Rp. 200.000"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="319dp"
+                android:layout_marginTop="34dp">
+
+                <View
+                    android:layout_width="32dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/rectangle_3_shape" />
+
+                <TextView
+                    android:fontFamily="@font/blusansregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="3dp"
+                    android:text=">"
+                    android:textSize="20sp"
+                    android:textColor="@color/textGray"
+                    />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

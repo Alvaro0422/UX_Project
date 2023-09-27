@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/Background">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+
+        <ImageView
+            android:layout_width="213dp"
+            android:layout_height="178dp"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/logo"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/blusansregular"
+                android:text="Usename"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_marginTop="25dp"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:fontFamily="@font/blusansregular"
+                android:hint="Username"
+                android:background="@drawable/rectangle_1_shape"
+                android:textColorHint="@color/hintcolor"
+                android:textColor="@color/black"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/blusansregular"
+                android:textSize="17sp"
+                />
+
+            <EditText
+                android:id="@+id/password"
+                android:inputType="textPassword"
+                android:layout_marginTop="25dp"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:fontFamily="@font/blusansregular"
+                android:background="@drawable/rectangle_1_shape"
+                android:hint="Password"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/hintcolor"
+                android:textColor="@color/black"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/errMsg"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="360dp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:layout_marginStart="110dp"
+            >
+            <View
+                android:layout_width="109dp"
+                android:layout_height="48dp"
+                android:background="@drawable/rectangle_2_shape"
+                />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="33dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOG IN"
+                android:fontFamily="@font/blusansbold"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

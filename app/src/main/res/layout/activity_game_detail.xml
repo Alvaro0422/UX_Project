@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameDetailActivity"
+    android:background="@color/itemBackground">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_marginTop="24dp"
+            android:layout_width="22dp"
+            android:layout_height="28dp"
+            android:src="@drawable/back_btn"
+            />
+        <TextView
+            android:fontFamily="@font/blusansregular"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="100dp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game Details"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="320dp"
+            android:layout_height="184dp"
+            android:layout_marginTop="91dp"
+            />
+        <TextView
+            android:fontFamily="@font/blusansregular"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="291dp"
+            />
+        <TextView
+            android:fontFamily="@font/blusansregular"
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginTop="320dp"
+            />
+
+        <TextView
+            android:fontFamily="@font/blusansregular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginTop="362dp"
+            />
+        
+        <EditText
+            android:fontFamily="@font/blusansregular"
+            android:id="@+id/email"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rectangle_1_shape"
+            android:layout_marginTop="386dp"
+            android:hint="Email"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textColorHint="@color/hintcolor"
+            android:paddingLeft="10dp"
+            />
+
+        <TextView
+            android:fontFamily="@font/blusansregular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Method"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginTop="439dp"
+            />
+
+        <Spinner
+            android:fontFamily="@font/blusansregular"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="463dp"
+            android:background="@drawable/rectangle_1_shape"
+            android:id="@+id/dropdown"
+            />
+
+        <TextView
+            android:fontFamily="@font/blusansregular"
+            android:id="@+id/pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="473dp"
+            android:text="Select Payment Method"
+            android:textColor="@color/hintcolor"
+            android:paddingLeft="10dp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="540dp"
+            android:layout_marginStart="109dp"
+            >
+            <View
+                android:id="@+id/button2"
+                android:layout_width="109dp"
+                android:layout_height="48dp"
+                android:background="@drawable/rectangle_2_shape"
+                />
+
+            <TextView
+                android:fontFamily="@font/blusansregular"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="43dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BUY"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

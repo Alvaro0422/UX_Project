@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <View
+            android:layout_width="313dp"
+            android:layout_height="234dp"
+            android:background="@drawable/rectangle_2_shape"
+            />
+
+        <TextView
+            android:fontFamily="@font/blusansregular"
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Success!"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="19dp"
+            />
+
+        <TextView
+            android:fontFamily="@font/blusansregular"
+            android:id="@+id/desc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment has been processed and confirmation has been sent to your email."
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="68dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <TextView
+            android:fontFamily="@font/blusansregular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You will be redirected to Home Page"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="149dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="185dp"
+            android:layout_marginStart="201dp"
+            android:layout_marginEnd="20dp">
+
+            <View
+                android:id="@+id/btnInsertName2"
+                android:layout_width="87dp"
+                android:layout_height="27dp"
+                android:background="@drawable/rectangle_1_shape"
+
+                />
+
+            <TextView
+                android:fontFamily="@font/blusansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/buttonBg"
+                android:layout_marginEnd="45dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
